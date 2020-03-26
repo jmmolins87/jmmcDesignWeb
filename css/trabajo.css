@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ========================================== Márgen de la línea del tiempo */
+.time-line {
+	margin: 50px;
+}
+
+.ecplicacion-trabajo {
+	color: rgba(167,167,167,1.00);
+}
+
+.lugar-empleo {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: rgba(32,124,202,1);
+}

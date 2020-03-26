@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.subtitulo-cookies-privacidad-aviso {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: rgba(32,124,202,1);
+	font-size: 2em;
+	padding: 15px 0px 10px 0px;
+}
+.contenido-cookies-aviso-privacidad {
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+/* ============================ Guión lista */
+.detalle-lista {
+	font-size: 1.5em;
+	color: rgba(32,124,202,1);
+}

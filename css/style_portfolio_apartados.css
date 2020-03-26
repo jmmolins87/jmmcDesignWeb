@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.container-portada-carteleria {
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-image: url(../img/portfolio/portadas/carleria_portfolio.jpg);
+	background-size: 150%;
+	animation: move 20s infinite linear alternate;
+}
+
+.container-portada-logo {
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-image: url(../img/portfolio/portadas/logo_portfolio.jpg);
+	background-size: 150%;
+	animation: move 20s infinite linear alternate;
+}
+
+.container-portada-papeleria {
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-image: url(../img/portfolio/portadas/papeleria_portfolio.jpg);
+	background-size: 150%;
+	animation: move 10s infinite linear alternate;
+}
+
+.container-portada-publicidad {
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-image: url(../img/portfolio/portadas/publicidad_portfolio.jpg);
+	background-size: 150%;
+	animation: move 10s infinite linear alternate;
+}
+
+.container-portada-restaurante {
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-image: url(../img/portfolio/portadas/restaurante_portfolio.jpg);
+	background-size: 150%;
+	animation: move 10s infinite linear alternate;
+}
+
+.container-portada-web {
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-image: url(../img/portfolio/portadas/web_portfolio.jpg);
+	background-size: 150%;
+	animation: move 10s infinite linear alternate;
+}
+
+@keyframes move {
+	from {
+		background-position: bottom left;
+	}
+	
+	top {
+		background-position: top right;
+	}
+}
+
+.capa-gradient {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,3b7de8+100&1+25,0.44+100 */
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,31,58,1) 25%, rgba(59,125,232,0.44) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(15,31,58,1) 25%,rgba(59,125,232,0.44) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(15,31,58,1) 25%,rgba(59,125,232,0.44) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#703b7de8',GradientType=1 ); /* IE6-9 */
+}
+
+.container-details {
+	width: 100%;
+	max-width: 1200px;
+	position: relative;
+	margin: auto;
+	z-index: 1000px;
+}
+
+.details {
+	width: 100%;
+	max-width: 500px;
+	position: relative;
+	top: 20px;
+}
+
+.details h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FFFFFF;
+	font-size: 3.5em;
+}
+
+.details p {
+	color: #ffffff;
+	font-size: 1.2em;
+	margin: 10px 0px;
+	line-height: 25px;
+}
+
+.btn-default {
+	background-color: transparent;
+	color: #FFFFFF;
+}
+
+.explicacion-portadas {
+	margin-top: 20px;
+	text-align: justify;
+	font-size: 1.3em;
+	color: rgba(167,167,167,1.00);
+	font-family: 'Open Sans Condensed', sans-serif;
+}

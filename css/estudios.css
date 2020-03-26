@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ============================ Título de cada estudio*/
+.sub-titulo-estudios {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: rgba(32,124,202,1);
+	font-size: 2.2em;
+}
+
+/* ============================ Información de cada título */
+.info-estudios {
+	padding-top: 20px;
+	font-size: 1.2em;
+	text-align: center;
+	color: rgba(167,167,167,1.00);
+}
+
+/* ============================ Títulos de las materias */
+.titulos-materias {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: rgba(32,124,202,1);
+	font-size: 1.4em;
+}
+
+/* ============================ Guión lista */
+.detalle-lista {
+	font-size: 1.5em;
+	color: rgba(32,124,202,1);
+}
+
+/* ============================ Temario */
+.temario-estuidos {
+	margin: auto;
+	text-align: center;
+	font-size: 2em;
+	color: rgba(167,167,167,1.00);
+}
+
+/* ============================ Separador entre temas */
+.separador-vertical {
+	margin-top: 10px;
+	border-right: 1px solid rgba(32,124,202,1);
+	padding: 15px;
+}
+
+/* ============================ Caja contenedora de las asignaturas */
+.contenido {
+	margin-top: 20px;
+}

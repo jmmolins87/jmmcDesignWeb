@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.titulos-quien {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.info {
+	color: rgba(32,124,202,1);
+	text-align: center;
+}
+
+
+.info-logo {
+	font-size: 2em;
+	color: rgba(32,124,202,1);
+	text-align: center;
+}
+
+.explicacion-info {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.explicacion-info-texto {
+	text-align: justify;
+}
+
+.programas-quien {
+	font-size: 1.1em;
+	color: rgba(32,124,202,1);
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+

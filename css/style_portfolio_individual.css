@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Tamaño imágen*/
+.thumbnail {
+    border: none;
+}
+
+/* =============== Info trabajos portfolio =============== */
+.info-trabajos-portfolio {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* =============== Títulos trabajos portfolio =============== */
+.titulo-trabajos-portfolio {
+    font-size: 3em;
+    color: rgba(32,124,202,1);
+    border-bottom: 1px solid;
+}
+
+/* =============== Características trabajos portfolio =============== */
+.carac-trabajos-portfolio {
+    font-size: 1.5em;
+    line-height: 35px;
+}
+
+/* =============== Iconos trabajos portfolio =============== */
+.iconos-portfolio {
+    color: rgba(32,124,202,1);
+    text-align: center;
+}
+
+/* =============== Botón POPUP portfolio =============== */
+.btn-success {
+    margin-top: 50px;
+}
+
+/* =============== Caja POPUP portfolio =============== */
+/* =============== Caja POPUP portfolio */
+/* Título POPUP portfolio */
+.modal-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(32,124,202,1);
+}
+
+/* Cuerpo POPUP portfolio */
+.modal-title {
+   font-size: 2em;
+}

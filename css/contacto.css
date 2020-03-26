@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* ============================ Formulario ============================ */
+
+.header {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(32, 124, 202, 1);
+    font-size: 27px;
+    padding: 10px;
+}
+
+
+/* ============================ iconos Formulario */
+
+.iconos-form {
+    font-size: 1.8em;
+    color: rgba(32, 124, 202, 1);
+}
+
+
+/* ============================ info derecha Formulario */
+
+.container-fluid-info-contacto {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    text-align: right;
+    color: rgba(167, 167, 167, 1.00);
+}
+
+.separador-info-formulario {
+    width: 50%;
+    border: 1px solid rgba(216, 216, 216, 1.00);
+    margin: 10px auto;
+}
+
+
+/* ============================ frase en azul contacto */
+
+#frase-contacto {
+    color: rgba(32, 124, 202, 1);
+    font-weight: bold;
+}

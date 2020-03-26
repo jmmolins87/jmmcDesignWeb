@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ir-arriba {
+	display: none;
+	cursor: pointer;
+	position: fixed;
+	bottom: 75px;
+	right: 25px;
+	z-index: 10000;
+	opacity: 0.4;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+}
+
+.ir-arriba:hover {
+	opacity: 1;
+	color: #3B7DE8;
+}
